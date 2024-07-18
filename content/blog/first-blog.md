@@ -1,9 +1,8 @@
 ---
 external: false
-title: First Blog
-description: This is my First Blog
+title: Introduction to Jetpack Compose
+description: This article
 date: 2024-07-18
 ---
 
-Sayangkuu Adzkiyatun Nisa Alhaura,
-Semangatttttt Skripsinaa 💖
+### REJAAKKK TENTARA
