@@ -29,11 +29,13 @@ import Footer from "../components/Footer.astro";
     <GoogleFont />
     <ThemeScript />
     <FontAwesome />
+    
   </head>
 
   <body
     class="max-w-3xl mx-auto min-h-screen px-6 sm:px-8"
   >
+  
     <Header />
     <main id="main">
       <slot name="main" />
@@ -53,5 +55,6 @@ import Footer from "../components/Footer.astro";
         grid-area: main;
       }
     </style>
+    
   </body>
 </html>
