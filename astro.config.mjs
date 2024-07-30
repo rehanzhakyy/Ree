@@ -29,14 +29,14 @@ if (isBuild) {
 }
 
 export default defineConfig({
-  server: { port: SERVER_PORT },
-  site: BASE_URL,
-  integrations: [
-    sitemap(),
-    tailwind({
-      config: { applyBaseStyles: false },
-    }),
-  ],
+  // server: { port: SERVER_PORT },
+  // site: BASE_URL,
+  // integrations: [
+  //   sitemap(),
+  //   tailwind({
+  //     config: { applyBaseStyles: false },
+  //   }),
+  // ],
   output: 'server',
   adapter: vercel({
     webAnalytics: {enabled: true}
